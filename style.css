@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position: sticky;
+    background-color: white;
+    width: 100vw;
+    padding-bottom: 2vh;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 0.84rem;
+    word-spacing: 1px;
+
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+#orange{
+    color: orangered;
+}
+.navbar{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.425);
+    padding: 5px;
+    padding-left: 22%;
+    justify-content: space-evenly;
+    padding-right: 5%;
+}
+.lower_navbar{
+   margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#logo{
+width: 12vw;
+height: 8vh;
+}
+#download_button{
+    height: 8vh;
+    width: auto;
+}
+#search{
+display: flex;
+}
+#searchbar{
+    height: 8vh;
+
+    width: 40vw;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.192);
+    border-radius: 5%;
+    padding: 3%;
+    padding-left: 5%;
+
+}
+#glass{
+    height: 8vh;
+    background-color: orangered;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    color: white;
+    font-size: 1rem;
+  
+}
+.cart i{
+    color: black;
+    font-size: 2rem;
+
+}
+.herosection{
+    height: 55vh;
+    background-color: greenyellow;
+    margin-top: 1%;
+    display: flex;
+    justify-content: stretch;
+}
+#emptysection{
+    width: 8vw;
+    height:55vh ;
+    background-color: rgb(13, 126, 88);
+}
+#list{
+    height:55vh ;
+    width: 16vw;
+    background-color: white;
+    line-height: 4.5vh;
+    padding-left: 0.7vw;
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+}
+#list ul{
+    list-style-type: none;
+
+}
+#list ul li{
+    padding-left: 1vw;
+}
+#list ul li:hover{
+    background-color: rgba(211, 211, 211, 0.418);
+}
+#emptysection2{
+    width: 8vw;
+    height:55vh ;
+    background-color: rgb(13, 126, 88);
+    
+}
+#picture{
+    height:55vh ;
+    width: 68vw;
+background-image: url(images/1.jpg);
+    background-size: cover;
+}
+.payday{
+    display: flex;
+    width: 100vw;
+    height: 23vh;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+.paydayimage{
+    width: 96vw;
+    height: 32vh;
+    background-image: url(images/payday2.png);
+    background-size: cover;
+    
+}
+.remaining{
+    width: 100vw;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.categories{
+    margin-top: 4vh;
+display: grid;
+grid-template-columns: repeat(8,1fr);
+grid-template-rows: repeat(2,1fr);
+text-align: center;
+
+}
+.items{
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    border-collapse: collapse;
+    height: 25vh;
+    width: auto;
+}
+.items:hover{
+    border: 2px solid rgba(0, 0, 0, 0.253);
+}
+.items img{
+    margin-top: 10%;
+    height:16vh ;
+    width: 8vw;
+}
+#h2{
+    font-weight: 200;
+}
+.just4you{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+}
+.items4you{
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: rgba(211, 211, 211, 0.233);
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    border-collapse: collapse;
+    height: 45vh;
+    width: 14vw;
+
+}
+.items4you:hover{
+    border: 2px solid rgba(0, 0, 0, 0.253);
+}
+.items4you img{
+    height: 30vh;
+    width: 13vw;
+}
+.items4you p{
+    padding-left: 5%;
+
+}
+.red{
+    padding-left: 5%;
+    color: red;
+    font-size: 20px;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.loading button{
+    color: orangered;
+    border: 1px solid orangered;
+    height: 10vh;
+    width: 30vw;
+    font-weight: 700;
+}
+
+.footer{
+    width: 100vw;
+    background-color: rgba(8, 7, 85, 0.815);
+    margin-top: 3vh;
+    padding-left: 5vw;
+    padding-top: 3vh;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer p {
+    font-size: smaller;
+    margin-top: 2vh;
+    line-height: 20px;
+}
+.footer pre{
+    margin-top: 2vh;
+    line-height: 20px;
+}
+.div1,.div2,.div3{
+    width: 25vw;
+}
+.div4{
+    width: 20vw;padding-right: 3vw;
+}
